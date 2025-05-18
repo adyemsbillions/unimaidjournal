@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { getFeaturedArticles, getRecentArticles } from "@/data/articles";
@@ -7,6 +6,7 @@ import Footer from "@/components/Footer";
 import ArticleCard from "@/components/ArticleCard";
 import FeaturedArticle from "@/components/FeaturedArticle";
 import { Button } from "@/components/ui/button";
+import '@/styles/index.css';
 
 const Index = () => {
   const [featuredArticles, setFeaturedArticles] = useState([]);
